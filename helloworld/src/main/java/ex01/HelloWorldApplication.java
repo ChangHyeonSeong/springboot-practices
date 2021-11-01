@@ -34,7 +34,7 @@ public class HelloWorldApplication {
 //			c.close();
 //		}
 //		
-//		try~with~resource
+//		try~with~resource try(...)에서 선언된 객체들에 대해서 try가 종료될 때 자동으로 자원을 해제해주는 기능
 		try(ConfigurableApplicationContext c = SpringApplication.run(HelloWorldApplication.class, args)){
 			
 		}
